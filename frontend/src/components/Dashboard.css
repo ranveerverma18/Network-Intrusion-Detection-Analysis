@@ -1,6 +1,6 @@
 .dashboard {
   min-height: 100vh;
-  background: #f5f7fa;
+  background: #0a0f1e;
 }
 
 .dashboard-content {
@@ -15,13 +15,13 @@
 
 .dashboard-header h2 {
   font-size: 2rem;
-  color: #333;
+  color: #f3f4f6;
   margin: 0 0 0.5rem 0;
   font-weight: 700;
 }
 
 .dashboard-subtitle {
-  color: #666;
+  color: #9ca3af;
   font-size: 1.1rem;
   margin: 0;
 }

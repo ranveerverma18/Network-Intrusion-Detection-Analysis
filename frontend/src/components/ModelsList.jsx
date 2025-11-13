@@ -5,7 +5,7 @@ import ModelCard from './ModelCard';
 import ModelForm from './ModelForm';
 import './ModelsList.css';
 
-const ModelsList = ({ refreshTrigger, onRefresh }) => {
+const ModelsList = ({ refreshTrigger, onRefresh, onModelsUpdate }) => {
   const [models, setModels] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -26,6 +26,7 @@ const ModelsList = ({ refreshTrigger, onRefresh }) => {
         withCredentials: true,
       });
       setModels(response.data);
+      onModelsUpdate(response.data);
       setError('');
     } catch (err) {
       setError('Failed to load models');
