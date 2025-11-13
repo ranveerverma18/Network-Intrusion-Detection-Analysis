@@ -154,12 +154,13 @@ This project includes machine learning notebooks for training and evaluating int
 - Stratified sampling (~700k records)
 
 **Models Implemented:**
-- XGBoost (98.5% accuracy)
+- XGBoost (99.86% accuracy)
 - Random Forest
 - Logistic Regression
 - Decision Tree
 - K-Means Clustering
-- Spark MLlib algorithms
+- Bisecting K-Means
+- Multi Layer Perceptron (MLP)
 
 **Evaluation Metrics:**
 - Accuracy, Precision, Recall, F1-Score
