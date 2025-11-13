@@ -87,3 +87,5 @@ public/
 
 # Optional: ignore dataset files (uncomment or modify as needed)
 *.csv
+
+.vscode/
